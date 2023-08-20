@@ -1,0 +1,8 @@
+Coklat Queen;20000;50;
+Indomie goreng;3000;200;
+Indomie;1000;200;
+Milo;1000;2;
+Susu Dancow;50000;10;
+Lays;10000;100;
+Masker;7000;40;
+
