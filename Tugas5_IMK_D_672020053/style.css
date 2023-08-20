@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background-image: url(hand-painted-watercolor-background-with-sky-clouds-shape.jpg);
+    font-family:sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow:visible;
+}
+.container {
+    width: 950px;
+    margin: auto;
+    background-color: white;
+}
+.container .isi {
+    width: 690px;
+    height: 765px;
+    float: left;
+    background-color: white;
+}
+.float{
+    background-color: white;
+    width: 260px;
+    height: 765px;
+    float: right;
+    font-family: 'Segoe UI';
+    font-size: 11px;
+    text-align: justify;
+    line-height: 23px;
+    padding: 0px 40px 0px 0px;
+    box-sizing: border-box;
+}
+.float h3 {
+    color: #003459;
+}
+.float img {
+    float: left;
+    padding: 8px 10px 0px 0px;
+}
+h3{
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    font-weight:900;
+    padding: 27px 0px 10px 0px;
+}
+.header {
+    padding: 20px 20px 20px 47px;
+    color: #003459;
+}
+h1{
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+    font-weight:900;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background: #00A7E1;
+}
+.navbar ul{
+    float: left;
+    padding: 16px 20px 20px 38px;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13.5px;
+    font-weight: bold;
+    font-family:verdana;
+    transition: 0.5s;
+    padding: 10px;
+}
+.navbar ul li a.soft,
+.navbar ul li a:hover{
+    background:orange;
+    border-radius:3px;
+}
+.mainpic {
+    height: 300px;
+    background-image: url(undraw_content_team_3epn.png);
+    background-size: contain;
+    border-top: 5px solid #e9ecec;
+    border-bottom : 5px solid #ffc078;
+}
+h2 {
+    padding: 20px 20px 5px 49px;
+    color: #003459;
+    font-family: 'Trebuchet MS';
+    font-size: 27px;
+    font-weight: bolder;
+}
+.penulis {
+    font-size: 12px;
+    padding: 5px 20px 20px 49px ;
+}
+.isi a{
+    text-decoration: none;
+    color: orange;
+    font-size: 12px;
+    font-family:verdana;
+}
+.konten{
+    padding: 5px 20px 30px 49px;
+    font-family: 'Segoe UI';
+    font-size: 14.5px;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 25px;
+}
+.footer {
+    background-color: #012138;
+    border-top: solid orange 5px;
+    float:right;
+    width: 950px;
+    height: 120px;
+}
+.footer .cpw {
+    text-align:center;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-top: 15px;
+}
+.footer .line {
+    text-align:center;
+    padding-bottom: 17px;
+    color: whitesmoke;
+}
+.footer .logo {
+    background-size: cover;
+    text-align: center;
+    height: 60px;
+    letter-spacing: 18px;
+}
