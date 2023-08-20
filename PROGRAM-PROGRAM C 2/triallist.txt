@@ -1,0 +1,6 @@
+Silver Queen;20000;50;
+Milo;5000;80;
+Masker;10000;40;
+Molto;5000;100;
+Roti;20000;10;
+Kopi;4500;10;
